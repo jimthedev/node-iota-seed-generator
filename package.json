@@ -1,0 +1,29 @@
+{
+  "name": "node-iota-seed-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimthedev/node-iota-seed-generator.git"
+  },
+  "keywords": [],
+  "author": "Jim Cummins <jimthedev@gmail.com> (http://github.com/jimthedev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimthedev/node-iota-seed-generator/issues"
+  },
+  "homepage": "https://github.com/jimthedev/node-iota-seed-generator#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "micro": "^8.0.3",
+    "micro-ratelimit": "^0.2.0"
+  },
+  "now": {
+    "alias": "iota.now.sh"
+  }
+}
